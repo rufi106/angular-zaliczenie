@@ -1,3 +1,14 @@
-<p>
-  add-task works!
-</p>
+<form class="app-form input-group mb-3" (ngSubmit)="onSubmit()">
+  <input 
+    class="app-form__text-input form-control" 
+    type="text" 
+    name="title" 
+    [(ngModel)]="title" 
+    placeholder="Add todo"
+  >
+  <input 
+    class="btn btn-outline-primary" 
+    type="submit" 
+    value="Submit"
+  >
+</form>
