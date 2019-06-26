@@ -1,0 +1,11 @@
+<div class="list-group"> 
+  <div class="list-group-item list-item" [ngClass]="setClasses()">
+    {{ todo.title }}
+    <div>
+        <span class="complete-btn" (click)="onToggle(todo)">{{ status }}</span>
+        <span class="delete-btn" (click)="onDelete(todo)">Delete</span>
+    </div>
+  </div>
+</div>
+
+

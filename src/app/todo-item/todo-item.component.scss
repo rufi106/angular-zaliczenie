@@ -1,0 +1,47 @@
+@keyframes slide-out{
+    0%{
+        background-color: transparent;
+    }
+    50%{
+        transform: scale(1.1);
+        background-color: #2ecc71;
+    }
+    100%{
+        transform: scale(1.0);
+    }
+
+}
+
+.list-item{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-btn, .complete-btn{
+    padding: 1rem;
+    font-size: 0.7rem;
+    transition: all .4s;
+}
+.delete-btn{
+    color: red;
+}
+
+.complete-btn{
+    color: green;
+    
+}
+
+.delete-btn:hover, .complete-btn:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.is-complete{
+    transition: all .4s;
+    background-color: #2ecc71;
+    animation: slide-out;
+    animation-iteration-count: 1;
+    animation-duration: 0.7s;
+}
