@@ -1,9 +1,29 @@
 .app-form{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 1rem 0;
-    &__text-input{
-        padding: 2rem 1rem;
-    }
+}
+
+.submit-btn{
+    background-color: #2ecc71;
+    outline: none;
+    border: none;
+    height: 70px;
+    padding: 0 2rem;
+    width: 50%;
+    margin-top: 20px;
+    transition: all .4s;
+
+}
+
+.submit-btn:hover{
+    background-color: #239b55;
+    transform: scaleX(1.1);
+}
+
+.form-input{
+    height: 70px;
+    width: 100%;
 }
