@@ -4,6 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #53789cc0;
+    color: #fff;
 }
 
 .delete-btn, .complete-btn{
@@ -12,11 +14,11 @@
     transition: all .4s;
 }
 .delete-btn{
-    color: red;
+    color: #db220d;
 }
 
 .complete-btn{
-    color: green;
+    color: #2ecc71;
     
 }
 

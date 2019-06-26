@@ -7,23 +7,36 @@
 }
 
 .submit-btn{
-    background-color: #2ecc71;
+    background-color: transparent;
+
     outline: none;
-    border: none;
+    border: 2px solid #f39c12;
     height: 70px;
     padding: 0 2rem;
-    width: 50%;
+    width: 40%;
     margin-top: 20px;
     transition: all .4s;
+    border-radius: 50px;
 
 }
 
 .submit-btn:hover{
-    background-color: #239b55;
-    transform: scaleX(1.1);
+    background-color: #f39c12;
 }
 
 .form-input{
     height: 70px;
     width: 100%;
+    background-color: #53789cc0;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 0 2rem;
+    font-size: 1.1rem;
+
+}
+
+.form-input::placeholder{
+    color: #fff;
+    font-size: 1.1rem;
 }
